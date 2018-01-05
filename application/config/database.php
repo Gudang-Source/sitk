@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'ci_bootstrap_3',
-	'password' => 'ci_bootstrap_3',
-	'database' => 'ci_bootstrap_3',
+	'hostname' => '172.104.40.40',
+	'username' => 'toosa',
+	'password' => 'toosap4ss',
+	'database' => 'tk',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
