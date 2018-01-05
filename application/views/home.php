@@ -12,7 +12,7 @@
   </div>
   <!-- /.box-header -->
   <div class="box-body">
-    The body of the box
+		<div class="item"><img src="<?php echo base_url();?>assets/images/pc150072-600x450.jpg" alt="Owl Image"></div>
   </div>
   <!-- /.box-body -->
   <div class="box-footer">
