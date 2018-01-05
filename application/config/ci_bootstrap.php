@@ -5,9 +5,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | -------------------------------------------------------------------------
 | CI Bootstrap 3 Configuration
 | -------------------------------------------------------------------------
-| This file lets you define default values to be passed into views 
-| when calling MY_Controller's render() function. 
-| 
+| This file lets you define default values to be passed into views
+| when calling MY_Controller's render() function.
+|
 | See example and detailed explanation from:
 | 	/application/config/ci_bootstrap_example.php
 */
@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['ci_bootstrap'] = array(
 
 	// Site name
-	'site_name' => 'CI Bootstrap 3',
+	'site_name' => 'SITK',
 
 	// Default page title prefix
 	'page_title_prefix' => '',
@@ -25,9 +25,9 @@ $config['ci_bootstrap'] = array(
 
 	// Default meta data
 	'meta_data'	=> array(
-		'author'		=> '',
-		'description'	=> '',
-		'keywords'		=> ''
+		'author'		=> 'Prihantoosa',
+		'description'	=> 'Sistem Informasi TK & PAUD',
+		'keywords'		=> 'TK, PAUD'
 	),
 
 	// Default scripts to embed at page head or end
@@ -43,6 +43,7 @@ $config['ci_bootstrap'] = array(
 	// Default stylesheets to embed at page head
 	'stylesheets' => array(
 		'screen' => array(
+			'assets/dist/admin/adminlte.min.css',
 			'assets/dist/frontend/lib.min.css',
 			'assets/dist/frontend/app.min.css'
 		)
@@ -50,7 +51,7 @@ $config['ci_bootstrap'] = array(
 
 	// Default CSS class for <body> tag
 	'body_class' => '',
-	
+
 	// Multilingual settings
 	'languages' => array(
 		'default'		=> 'en',
@@ -59,18 +60,18 @@ $config['ci_bootstrap'] = array(
 			'en' => array(
 				'label'	=> 'English',
 				'value'	=> 'english'
-			),
-			'zh' => array(
-				'label'	=> '繁體中文',
-				'value'	=> 'traditional-chinese'
-			),
-			'cn' => array(
-				'label'	=> '简体中文',
-				'value'	=> 'simplified-chinese'
-			),
-			'es' => array(
-				'label'	=> 'Español',
-				'value' => 'spanish'
+				// ),
+				// 'zh' => array(
+				// 	'label'	=> '繁體中文',
+				// 	'value'	=> 'traditional-chinese'
+				// ),
+				// 'cn' => array(
+				// 	'label'	=> '简体中文',
+				// 	'value'	=> 'simplified-chinese'
+				// ),
+				// 'es' => array(
+				// 	'label'	=> 'Español',
+				// 	'value' => 'spanish'
 			)
 		)
 	),
@@ -98,7 +99,7 @@ $config['ci_bootstrap'] = array(
 		'from_email'		=> '',
 		'from_name'			=> '',
 		'subject_prefix'	=> '',
-		
+
 		// Mailgun HTTP API
 		'mailgun_api'		=> array(
 			'domain'			=> '',
